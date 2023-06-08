@@ -1,0 +1,18 @@
+{
+    "ssdm": "",   //表示省份代码  (必填)
+    "dwmc": "",  //表示院校名称    （默认空）
+    "mldm": "zyxw",   //表示门类代码,比如01代表哲学    （必填）   zyxw
+    "mlmc": "",     //表示门类名称，用于指定要搜索的门类名称。
+                    //该值是一个字符串，例如 "哲学" 表示搜索哲学门类。 （必填）
+    "yjxkdm": "0854",    //表示一级学科代码
+    "zymc": "大数据技术与工程",   //表示专业名称
+    "xxfs": 1,        //表示学习方式
+    "pageno": 1    //表示当前页码
+}
+// import json
+
+// params = json.load(fp=open("settings.json", "r", encoding="utf8"))
+// "政治详细": data_xpath.xpath("//div[@class=\"zsml-result\"]/table/tbody/tr/td[1]/span/text()")[0],
+// "英语详细": data_xpath.xpath("//div[@class=\"zsml-result\"]/table/tbody/tr/td[2]/span/text()")[0],
+// "业务课一详细": data_xpath.xpath("//div[@class=\"zsml-result\"]/table/tbody/tr/td[3]/span/text()")[0],
+// "业务课二详细": data_xpath.xpath("//div[@class=\"zsml-result\"]/table/tbody/tr/td[4]/span/text()")[0]
